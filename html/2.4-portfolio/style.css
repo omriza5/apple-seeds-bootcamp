@@ -6,20 +6,21 @@
 
 .navbar {
   height: 10vh;
-  background-color: blanchedalmond;
+  background-color: #85144b;
 }
 
 .navbar h1 {
   text-align: center;
   padding-top: 1rem;
   font-size: 3rem;
+  color: #fff;
 }
 
 .container {
   margin: 0 auto;
   width: 1000px;
   height: 90vh;
-  border: 3px solid black;
+  border: 1px dotted black;
 }
 
 .main {
@@ -47,4 +48,26 @@
 
 .btn-section .btn {
   padding: 1rem;
+}
+
+.btn {
+  background-color: blue;
+  border-radius: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.social ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.social ul li {
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
