@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: blanchedalmond;
+}
+
+.navbar h1 {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 3rem;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  height: 90vh;
+  border: 3px solid black;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.main .description {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.btn-section {
+  text-align: center;
+  padding: 1rem;
+}
+
+.btn-section .btn {
+  padding: 1rem;
+}
