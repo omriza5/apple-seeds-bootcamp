@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- 
+        position:relative => relative to its normal position, other elements are not affected
+        position:absolute => relative to its container, other elements are affected
+        position:fixed => relative to the viewport
+    -->
+    <style>
+      .boxes {
+        border: 3px solid lightgray;
+        position: relative;
+      }
+      .box {
+        width: 5rem;
+        height: 5rem;
+      }
+
+      .box-one {
+        background-color: gold;
+      }
+      .box-two {
+        background-color: tomato;
+        position: absolute;
+        right: 50px;
+        bottom: 0;
+      }
+      .box-three {
+        background-color: dodgerblue;
+      }
+
+      .avatar {
+        width: 5rem;
+        height: 5rem;
+        background-color: gold;
+        float: left;
+        margin-right: 1rem;
+      }
+
+      .clear {
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Positioning Example</h1>
+    <div class="boxes">
+      <div class="box box-one"></div>
+      <div class="box box-two"></div>
+      <div class="box box-three"></div>
+    </div>
+
+    <h1>Float Example</h1>
+    <article class="tweet">
+      <div class="avatar"></div>
+      <p>Lorem ipsum dolor sit amet.</p>
+      <p class="clear">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil odit,
+        doloribus ipsum laudantium possimus ad consequatur voluptas maiores ea
+        doloremque vitae labore aliquam magnam amet aperiam! Sed minus quis
+        fugit molestias nulla ipsam nostrum ad dignissimos, totam adipisci
+        possimus illo accusantium nam provident eum, maxime, impedit a officia.
+        Officia, vitae.
+      </p>
+    </article>
+  </body>
+</html>
+
+<!--
+    parent element dont see floating elements,
+    so parent element get collapsed.
+    two ways to fix this problem:
+
+    1)  .clearfix::after{
+        content:"";
+        display:block;
+        clear:both
+        }
+
+    2)   add overflow:hidden to container element
+
+
+-->
