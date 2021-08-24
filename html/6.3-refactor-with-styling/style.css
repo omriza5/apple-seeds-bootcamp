@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: #85144b;
+}
+
+.navbar h1 {
+  text-align: center;
+  padding-top: 1rem;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1000px;
+  height: 90vh;
+  border: 1px dotted black;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.main img {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.main .description {
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+
+.btn-section {
+  text-align: center;
+  padding: 1rem;
+}
+
+.btn-section .btn {
+  padding: 1rem;
+}
+
+.btn {
+  background-color: blue;
+  border-radius: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.social ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.social ul li {
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* card */
+.card {
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  width: 300px;
+}
+
+.card-img img {
+  width: 100%;
+}
+
+.card-content {
+  background-color: lightgray;
+  padding: 0.5rem;
+}
+.card ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  list-style: none;
+}
