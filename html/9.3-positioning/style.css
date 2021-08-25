@@ -1,0 +1,32 @@
+.boxes {
+  position: relative;
+}
+.box {
+  border: 2px solid black;
+  background: #fff;
+}
+.box-1 {
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  top: 0;
+}
+.box-2 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 130px;
+  left: 130px;
+}
+.box-3 {
+  position: absolute;
+  width: 520px;
+  height: 100px;
+  top: 300px;
+}
+.box-4 {
+  position: absolute;
+  width: 100px;
+  height: 500px;
+  left: 400px;
+}
