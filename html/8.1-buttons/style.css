@@ -1,0 +1,95 @@
+body {
+  background-color: rgb(45, 45, 53);
+}
+
+h1 {
+  color: #fff;
+}
+.btn {
+  color: #fff;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.btn-round {
+  border-radius: 25px;
+}
+
+.btn-l {
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+}
+.btn-m {
+  padding: 0.3rem 1.5rem;
+  font-size: 1.2rem;
+}
+.btn-s {
+  padding: 0.2rem 1rem;
+  font-size: 0.9rem;
+}
+
+.bg-green {
+  background-color: #00ff2a;
+}
+
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+.bg-orange {
+  background-color: #d77d00;
+}
+.bg-yellow {
+  background-color: #fffb00;
+}
+.bg-grey {
+  background-color: #c0c0c0;
+}
+
+.red-border {
+  border: 1px solid red;
+}
+.green-border {
+  border: 1px solid #00ff2a;
+}
+.blue-border {
+  border: 1px solid blue;
+}
+.orange-border {
+  border: 1px solid #d77d00;
+}
+.yellow-border {
+  border: 1px solid #fffb00;
+}
+.grey-border {
+  border: 1px solid #c0c0c0;
+}
+.no-border {
+  border: none;
+}
+
+.no-bg {
+  background-color: Transparent;
+}
+
+.green-flat-ghost:hover {
+  background-color: #00ff2a;
+}
+.red-flat-ghost:hover {
+  background-color: red;
+}
+.blue-flat-ghost:hover {
+  background-color: blue;
+}
+.orange-flat-ghost:hover {
+  background-color: #d77d00;
+}
+.yellow-flat-ghost:hover {
+  background-color: #fffb00;
+}
+.grey-flat-ghost:hover {
+  background-color: #c0c0c0;
+}
