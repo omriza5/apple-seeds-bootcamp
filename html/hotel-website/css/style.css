@@ -1,0 +1,213 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7rem;
+  font-size: 62.5%;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  padding-bottom: 2rem;
+}
+
+/* Utility */
+.container {
+  margin: 0 auto;
+  max-width: 110rem;
+}
+
+.text-primary {
+  color: #f7c08a;
+}
+
+.lead {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 3rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 1.8rem;
+  color: #fff;
+  background: #333;
+  padding: 1.3rem 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #333;
+  background: #f7c08a;
+  transition: 1s;
+}
+
+.bg-primary {
+  background: #f7c08a;
+  color: #333;
+}
+
+.btn-light {
+  background: #fff;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+/* Navbar */
+.navbar {
+  background: #333;
+  color: #fff;
+  overflow: auto; /* prevent removing the bg while floating elements(h1,ul) line 48,55*/
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.navbar h1 {
+  float: left;
+  padding: 2rem;
+  font-size: 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  float: right;
+}
+
+.navbar ul li {
+  float: left;
+}
+.navbar ul li a {
+  display: block;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.navbar ul li a:hover,
+.navbar ul li .current {
+  background: #444;
+  color: #f7c08a;
+}
+
+/* Showcase */
+.showcase {
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 60rem;
+}
+
+.showcase .showcase-content {
+  color: #fff;
+  text-align: center;
+  padding-top: 17rem;
+}
+
+.showcase h1 {
+  font-size: 6rem;
+}
+
+/* Home Info */
+.home-info {
+  height: 40rem;
+}
+
+.info-img {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+  background: url("../img/photo-1.jpg") no-repeat;
+}
+
+.info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 5rem 3rem;
+  overflow: hidden;
+  font-size: 1rem;
+}
+
+.info-content a {
+  margin-top: 4rem;
+}
+
+/* features */
+.features {
+  height: 25rem;
+}
+
+.box {
+  float: left;
+  text-align: center;
+  padding: 1.5rem;
+  height: 100%;
+  width: 33.3%;
+}
+
+.features .box i {
+  font-size: 3rem;
+}
+
+.box h3 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+.box p {
+  font-size: 1.2rem;
+}
+
+/* About */
+.about-info {
+  padding: 1rem;
+}
+.info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+.info-right img {
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+.info-left p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+.info-left h1 {
+  font-size: 2rem;
+}
+
+/* Footer */
+.main-footer {
+  text-align: center;
+  background: #444;
+  color: #fff;
+  padding: 2rem;
+  clear: both;
+}
