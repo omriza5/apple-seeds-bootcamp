@@ -1,0 +1,119 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.heading-3 {
+  color: #fff;
+  font-size: 3.5rem;
+}
+.heading-4 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.btn {
+  color: #fff;
+  transition: 0.33s ease;
+}
+
+.main-model {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: url("../img/mainImg.jpeg") no-repeat center center/cover;
+  height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 3rem 3rem;
+}
+
+.logo {
+  width: 12rem;
+}
+
+.logo path {
+  fill: #fff;
+}
+
+.models {
+  float: left;
+}
+
+.nav-model {
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-model:hover {
+  background: #6f7681;
+  border-radius: 15px;
+}
+
+.settings {
+  float: right;
+}
+
+.model-heading {
+  font-size: 2rem;
+  position: relative;
+  color: #fff;
+  bottom: 22rem;
+}
+
+.perfomance-info {
+  display: flex;
+  align-items: center;
+}
+
+.detailed-info {
+  padding: 3rem;
+}
+
+.perfomance-info a {
+  border: 2px solid #fff;
+  border-radius: 15px;
+  padding: 0.5rem 2rem;
+}
+
+.perfomance-info a:hover {
+  background: #fff;
+  color: black;
+}
+
+.side-bar {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 2rem;
+  top: 25rem;
+}
+
+.side-bar-item {
+  background: #393c41;
+  margin-bottom: 0.5rem;
+  height: 3rem;
+  width: 5px;
+}
+
+.current {
+  background: #fff;
+}
