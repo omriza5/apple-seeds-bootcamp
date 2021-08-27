@@ -1,3 +1,8 @@
+@font-face {
+  font-family: gotham;
+  src: url(../fonts/Gotham\ Medium.otf);
+}
+
 /* Reset */
 * {
   margin: 0;
@@ -7,6 +12,7 @@
 
 html {
   font-size: 62.5%;
+  font-family: gotham;
 }
 
 a {
@@ -23,7 +29,6 @@ a {
 }
 
 .btn {
-  color: #fff;
   transition: 0.33s ease;
 }
 
@@ -58,6 +63,7 @@ a {
 }
 
 .nav-model {
+  color: #fff;
   padding: 1rem;
   font-size: 2rem;
   font-weight: bold;
@@ -77,6 +83,7 @@ a {
   position: relative;
   color: #fff;
   bottom: 22rem;
+  line-height: 4.8rem;
 }
 
 .perfomance-info {
@@ -102,7 +109,7 @@ a {
 .side-bar {
   display: flex;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   left: 2rem;
   top: 25rem;
 }
@@ -116,4 +123,167 @@ a {
 
 .current {
   background: #fff;
+}
+
+/************************************************* Page 2 ******************************************************/
+
+.safety-section {
+  display: flex;
+  height: 100vh;
+}
+
+.safety-section-info {
+  flex: 25;
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.safety-section-info-title {
+  margin-bottom: 1.5rem;
+}
+.safety-section-info-title h3 {
+  font-weight: 100;
+  font-size: 1.7rem;
+  color: #181b21;
+}
+.safety-section-info-title h2 {
+  font-size: 2.8rem;
+}
+
+.safety-section-info-par {
+  font-size: 1.3rem;
+  color: #393c41;
+  line-height: 2.1rem;
+  margin-bottom: 2rem;
+}
+
+.safety-section-info-rating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 15px;
+  background: #e2e3e3;
+}
+
+.safety-section-info-rating-title {
+  font-size: 1.5rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+.safety-section-info-rating-title:nth-child(1) {
+  text-align: center;
+}
+
+.safety-section-info-rating-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.rating-data-item {
+  width: 20vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.rating-data-item-title h4 {
+  font-size: 1.3rem;
+}
+.rating-data-item-title h5 {
+  font-size: 0.8rem;
+}
+
+.rating-data-item .stars {
+  font-size: 2rem;
+}
+
+.safety-section-info-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 9rem;
+}
+
+.learn-more {
+  margin-right: 2rem;
+}
+
+.learn-more span {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 50%;
+  border: 2px solid black;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.learn-more span:hover {
+  color: #fff;
+  background: black;
+}
+
+.learn-more a {
+  font-size: 1.5rem;
+  color: black;
+}
+
+/* order now button*/
+.round {
+  border: 2px solid black;
+  padding: 0.5rem 3rem;
+  border-radius: 15px;
+  color: black;
+  font-size: 2rem;
+}
+
+.round:hover {
+  color: #fff;
+  background: black;
+}
+
+.safety-section-img {
+  flex: 80;
+  background: url("../img/safetyHero.png") no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/* Third Page */
+
+.performance-section {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.performance-section-main {
+  background: url("../img/secondaryPhoto.jpeg") no-repeat center center/cover;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  text-align: center;
+}
+
+.performance-section-main h4 {
+  font-size: 1rem;
+}
+
+.performance-section-info {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.performance-section-info-left {
+  margin-right: 3rem;
+}
+.performance-section-info-left .safety-section-info-buttons {
+  margin-top: 0;
+}
+
+.performance-section-info-right {
+  font-size: 1.5rem;
 }
