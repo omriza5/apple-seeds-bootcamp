@@ -1,6 +1,7 @@
 .boxes {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
+  align-items: flex-end;
   height: 50vh;
   background: burlywood;
 }
