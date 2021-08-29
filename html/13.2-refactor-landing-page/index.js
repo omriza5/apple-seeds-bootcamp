@@ -1,7 +1,18 @@
-/** hamburger click event listener */
+/** hamburger click event listeners */
 
+const rightSideBar = document.getElementById("rightSideBar");
 const hamIcon = document.getElementById("hamIcon");
+const exitIcon = document.getElementById("exitIcon");
+
 hamIcon.addEventListener("click", () => {
-  return console.log("Hello World!");
+  rightSideBar.style.display = "initial";
+  rightSideBar.style.right = "0";
+  rightSideBar.style.transition = "1s";
 });
-console.log(hamIcon);
+
+exitIcon.addEventListener("click", () => {
+  rightSideBar.style.display = "none";
+  rightSideBar.style.right = "-30rem";
+});
+
+console.log(rightSideBar);

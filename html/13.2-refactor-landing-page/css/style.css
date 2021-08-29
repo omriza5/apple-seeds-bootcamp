@@ -28,8 +28,35 @@ ul {
   background: var(--light-red);
   height: 100vh;
   width: 100vw;
+  position: relative;
 }
 
+/** Right Side Bar */
+.right-side-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  height: 100vh;
+  width: 20vw;
+  background: var(--white);
+  right: -30rem;
+  display: none;
+}
+
+.exit-icon {
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: var(--smooth-black);
+  border-bottom: 2px solid var(--smooth-black);
+}
+
+.exit-icon i:hover {
+  color: var(--light-red);
+}
 .navbar {
   padding: 3rem 7rem;
   display: flex;
@@ -110,9 +137,6 @@ ul {
   }
 }
 
-/** Right Side Bar */
-.right-side-bar {
-}
 @media screen and (max-width: 600px) {
   .navbar {
     padding: 1rem 2rem;
@@ -122,5 +146,9 @@ ul {
   }
   .description .full-name {
     font-size: 2.5rem;
+  }
+
+  .right-side-bar {
+    width: 80vw;
   }
 }
