@@ -72,22 +72,22 @@ ul {
   font-weight: 400;
 }
 
-.side-bar {
+.social-icon {
   text-align: center;
   margin-right: 15rem;
 }
 
-.side-bar ul {
+.social-icon ul {
   display: flex;
   flex-direction: column;
 }
-.side-bar ul li {
+.social-icon ul li {
   padding: 1rem;
   font-size: 2.5rem;
   color: var(--smooth-black);
 }
 
-.side-bar ul li:hover {
+.social-icon ul li:hover {
   color: var(--white);
 }
 
@@ -102,10 +102,25 @@ ul {
     font-size: 3rem;
   }
 
-  .side-bar {
+  .social-icon {
     margin: 0 auto;
   }
-  .side-bar ul {
+  .social-icon ul {
     flex-direction: row;
+  }
+}
+
+/** Right Side Bar */
+.right-side-bar {
+}
+@media screen and (max-width: 600px) {
+  .navbar {
+    padding: 1rem 2rem;
+  }
+  .description {
+    font-size: 1.2rem;
+  }
+  .description .full-name {
+    font-size: 2.5rem;
   }
 }
