@@ -1,0 +1,22 @@
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background: burlywood;
+}
+
+.box {
+  flex-basis: 8rem;
+  height: 8rem;
+}
+
+.box-one {
+  background: green;
+}
+.box-two {
+  background: blue;
+}
+.box-three {
+  background: red;
+}
