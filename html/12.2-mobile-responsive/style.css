@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+}
+
+.text {
+  background: grey;
+  margin-right: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .text {
+    background: green;
+    color: black;
+  }
+}
