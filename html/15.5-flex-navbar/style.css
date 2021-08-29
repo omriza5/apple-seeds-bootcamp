@@ -1,21 +1,33 @@
-.boxes {
+.navbar {
   display: flex;
   justify-content: space-between;
-  height: 50vh;
-  background: burlywood;
+  align-items: center;
+  height: 5rem;
+  padding: 1rem;
+  color: #fff;
+  background: #ff6666;
 }
 
-.box {
-  flex-basis: 8rem;
-  height: 8rem;
+ul {
+  display: flex;
+  list-style: none;
+  text-transform: uppercase;
 }
 
-.box-one {
-  background: green;
+li {
+  margin-right: 0.5rem;
+  cursor: pointer;
+  font-weight: bold;
 }
-.box-two {
-  background: blue;
-}
-.box-three {
-  background: red;
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    /* justify-content: space-around; */
+    height: 30vh;
+  }
+
+  ul {
+    flex-direction: column;
+  }
 }
