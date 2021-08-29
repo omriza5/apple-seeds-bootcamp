@@ -1,0 +1,19 @@
+.container {
+  margin: 10rem auto;
+  max-width: 50rem;
+}
+
+.text {
+  color: green;
+}
+
+@media screen and (max-width: 600px) {
+  .text {
+    color: red;
+  }
+}
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .text {
+    color: blue;
+  }
+} ;
