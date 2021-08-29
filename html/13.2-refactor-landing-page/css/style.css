@@ -90,3 +90,22 @@ ul {
 .side-bar ul li:hover {
   color: var(--white);
 }
+
+@media screen and (max-width: 1075px) {
+  .main-content {
+    flex-direction: column-reverse;
+  }
+  .description {
+    font-size: 2rem;
+  }
+  .description .full-name {
+    font-size: 3rem;
+  }
+
+  .side-bar {
+    margin: 0 auto;
+  }
+  .side-bar ul {
+    flex-direction: row;
+  }
+}
