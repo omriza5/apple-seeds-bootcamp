@@ -7,7 +7,6 @@ const exitIcon = document.getElementById("exitIcon");
 hamIcon.addEventListener("click", () => {
   rightSideBar.style.display = "initial";
   rightSideBar.style.right = "0";
-  rightSideBar.style.transition = "1s";
 });
 
 exitIcon.addEventListener("click", () => {

@@ -22,6 +22,11 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  color: var(--smooth-black);
+}
+
 .main-header {
   display: flex;
   flex-direction: column;
@@ -51,12 +56,28 @@ ul {
   align-items: center;
   font-size: 3rem;
   color: var(--smooth-black);
-  border-bottom: 2px solid var(--smooth-black);
+  border-bottom: 2px solid var(--light-red);
 }
 
 .exit-icon i:hover {
   color: var(--light-red);
 }
+
+.right-side-bar-items ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side-bar-items li {
+  margin: auto;
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.right-side-bar-items li a:hover {
+  color: var(--light-red);
+}
+
 .navbar {
   padding: 3rem 7rem;
   display: flex;
@@ -114,7 +135,7 @@ ul {
   color: var(--smooth-black);
 }
 
-.social-icon ul li:hover {
+.social-icon ul li a:hover {
   color: var(--white);
 }
 
