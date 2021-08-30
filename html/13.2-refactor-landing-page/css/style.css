@@ -8,6 +8,7 @@
   --smooth-black: #3a3a3a;
   --white: #ffffff;
   --light-red: #ff6666;
+  --bright-grey: #e8e9eb;
 }
 
 html {
@@ -32,7 +33,6 @@ a {
   flex-direction: column;
   background: var(--light-red);
   height: 100vh;
-  width: 100vw;
   position: relative;
 }
 
@@ -41,7 +41,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
+  position: fixed;
   height: 100vh;
   width: 20vw;
   background: var(--white);
@@ -137,6 +137,11 @@ a {
 
 .social-icon ul li a:hover {
   color: var(--white);
+}
+
+#about {
+  height: 100vh;
+  background: color(--bright-grey);
 }
 
 @media screen and (max-width: 1075px) {
