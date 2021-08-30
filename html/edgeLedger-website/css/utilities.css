@@ -1,0 +1,7 @@
+/* Text Colors */
+.text-primary {
+  color: var(--green);
+}
+.text-secondary {
+  color: var(--blue);
+}

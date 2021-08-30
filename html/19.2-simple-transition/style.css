@@ -1,0 +1,31 @@
+.box {
+  height: 20rem;
+  width: 20rem;
+  background: red;
+  position: relative;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  left: 20rem;
+  height: 20rem;
+  width: 20rem;
+  background: green;
+
+  transition: transform 1s ease-in;
+}
+
+.box:hover::after {
+  content: "";
+
+  transform: translateX(-20rem);
+  background: purple;
+}
+
+.box:hover {
+}
+
+/* on red box hover , purple box should transition to right
+    amd change the background color to green
+*/

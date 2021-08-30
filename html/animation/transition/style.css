@@ -1,0 +1,29 @@
+/*
+  we use transition to animate one or more properties. 
+
+  ease-in => the animation start slowly then increases
+  ease-out => the animation start quickly and then slows down
+*/
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: gold;
+
+  /*  
+    animate the transform property - replace tranform with all if 
+    there is another properties in .box:hover
+   */
+  transition: transform 0.5s ease-in;
+}
+
+.box:hover {
+  transform: rotate(45deg);
+}

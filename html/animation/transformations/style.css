@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: gold;
+}
+
+.box:hover {
+  /*rotate the box 15 degree clockwise */
+  /* transform: rotate(15deg);  */
+
+  /*make the box larger or smaller */
+  /* transform: scale(1.5); */
+
+  /*make the box larger or smaller */
+  /* transform: scale(1.5); */
+
+  /* skew(אלכסון) the element to the left or to the right */
+  /* transform: skew(-15deg); */
+
+  /* move the box on the screen */
+  /* transform: translateX(100px); */
+}

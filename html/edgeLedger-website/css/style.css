@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap");
+
+:root {
+  --green: #28a745;
+  --blue: #0284d0;
+  --dark-grey: #333;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%; /* 1rem = 10px*/
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: var(--white);
+  color: var(--dark-grey);
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: var(--dark-grey);
+  text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+img {
+  width: 100%;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--dark-grey);
+  color: var(--white);
+  height: 7rem;
+  width: 100%;
+  opacity: 0.8;
+  padding: 0 3rem;
+  position: fixed;
+  top: 0;
+}
+
+.navbar .logo {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.nav-items ul {
+  display: flex;
+}
+
+.nav-items ul li a {
+  color: var(--white);
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.nav-items ul li:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.navbar a:hover {
+  border-bottom: var(--green) 2px solid;
+}

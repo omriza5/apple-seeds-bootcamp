@@ -1,15 +1,14 @@
 .box {
   background: purple;
-  height: 15rem;
-  width: 10rem;
+  height: 20rem;
+  width: 20rem;
+  position: relative;
 }
 
 .box:after {
   content: "";
-  display: block;
-  position: relative;
-  left: 10rem;
+  position: absolute;
   background: red;
-  height: 15rem;
-  width: 10rem;
+  height: 100%;
+  width: 50%;
 }
