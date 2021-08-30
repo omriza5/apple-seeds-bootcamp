@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 50rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 100vh;
+  padding: 1rem;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.tooltip {
+  color: red;
+  font-weight: bold;
+  position: relative;
+}
+
+.tooltip:hover::after {
+  content: "its an important word";
+  color: black;
+  background: yellow;
+  position: absolute;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 10rem;
+  padding: 0.3rem;
+  font-size: 1rem;
+  bottom: 1rem;
+  right: -1.5rem;
+}
