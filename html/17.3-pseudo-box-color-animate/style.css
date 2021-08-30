@@ -1,0 +1,19 @@
+.box {
+  background: purple;
+  height: 15rem;
+  width: 10rem;
+}
+
+.box:after {
+  content: "";
+  display: block;
+  position: relative;
+  left: 10rem;
+  background: red;
+  height: 15rem;
+  width: 10rem;
+}
+
+.box:hover {
+  background: green;
+}
