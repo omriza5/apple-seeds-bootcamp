@@ -1,0 +1,9 @@
+.btn {
+  padding: 0.5rem;
+  border: 2px solid black;
+  opacity: transparent;
+}
+
+.rotate:hover {
+  transform: rotate(2deg);
+}

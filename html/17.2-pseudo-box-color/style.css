@@ -1,14 +1,28 @@
-.box {
-  background: purple;
+.container {
   height: 20rem;
   width: 20rem;
   position: relative;
+  display: flex;
+  justify-content: flex-end;
 }
-
-.box:after {
+.box {
+  height: 20rem;
+  width: 10rem;
+  background-color: blueviolet;
+}
+/* .box:after {
   content: "";
   position: absolute;
   background: red;
   height: 100%;
   width: 50%;
+} */
+.box:before {
+  content: "";
+  position: absolute;
+  background: red;
+  top: 0;
+  left: 0;
+  height: 20rem;
+  width: 10rem;
 }
