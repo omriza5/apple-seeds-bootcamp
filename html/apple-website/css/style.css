@@ -25,6 +25,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 li {
   list-style: none;
 }
@@ -70,7 +74,7 @@ li {
   align-items: center;
   width: 70%;
   color: var(--white-grey);
-
+  opacity: 0.8;
   font-size: 1.8rem;
 }
 
@@ -79,7 +83,7 @@ li {
 }
 .nav-items li:hover {
   color: #fff;
-
+  opacity: 1.5;
   transform: scale(1.1);
 }
 
@@ -112,10 +116,6 @@ li {
   width: 100%;
   text-align: center;
   background: var(--white-grey);
-}
-
-.welcome-message a:hover {
-  text-decoration: underline;
 }
 
 .iphone-info {
@@ -152,10 +152,6 @@ li {
 .iphone-info-links a {
   display: inline-block;
   margin-right: 3rem;
-}
-
-.iphone-info-links a:hover {
-  text-decoration: underline;
 }
 
 .iphone-12 {
