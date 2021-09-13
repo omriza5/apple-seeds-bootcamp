@@ -28,4 +28,5 @@ function getMaxAvg(...args) {
   return Math.max(...args);
 }
 
+/* Main */
 displayWinner(johnsTeamScores, mikesTeamScores, maryTeamScores);
