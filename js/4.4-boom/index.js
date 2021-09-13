@@ -13,4 +13,16 @@ function isIncludesSeven(n) {
   return arrNum.includes("7");
 }
 
+/* another way to check if a number includes 7 */
+function isIncludesSeven1(num) {
+  while (num > 0) {
+    let reminder = num % 10;
+    if (reminder === 7) return true;
+
+    num = Math.floor(num / 10);
+  }
+
+  return false;
+}
+
 boom(18);
