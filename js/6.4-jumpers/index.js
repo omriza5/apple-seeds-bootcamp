@@ -31,9 +31,10 @@ function divideJumpers(jumps) {
   const iterationLimit = jumps.length / JUMP_REPRESENTIVE;
   let jump = 0;
   let playersJumps = [];
+
   for (let i = 0; i < iterationLimit; i++) {
-    playersJumps.push(jumps.slice(jump, jump + 3));
-    jump = jump + 3;
+    playersJumps.push(jumps.slice(jump, jump + JUMP_REPRESENTIVE));
+    jump = jump + JUMP_REPRESENTIVE;
   }
 
   return playersJumps;
