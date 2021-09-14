@@ -32,7 +32,7 @@ const bookUtils = {
       location,
     };
   },
-  isSamePublisher: function (book1, book1, location) {
+  isSamePublisher: function (book1, book1) {
     return (
       book1.publisher.name === book2.publisher.name &&
       book1.publisher.location === book2.publisher.location
