@@ -1,7 +1,9 @@
 const isString = (str, cb) => {
-  if (typeof str) cb(str);
+  if (typeof str === "string") {
+    cb(str);
+  }
 };
 
-isString("Omri", (str) => {
+isString("1", (str) => {
   console.log(str);
 });
