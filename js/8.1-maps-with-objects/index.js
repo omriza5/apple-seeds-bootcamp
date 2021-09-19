@@ -8,4 +8,4 @@ map.set(0, obj1);
 map.set(1, obj2);
 map.set(2, obj3);
 
-map.forEach((element) => console.log(element));
+for (let item of map) console.log(item);
