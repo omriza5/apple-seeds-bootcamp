@@ -7,7 +7,7 @@ const asce = foods.sort((a, b) => {
   return 0;
 });
 
-console.log(asce);
+// console.log(asce);
 
 const desc = foods.sort((a, b) => {
   if (a > b) return -1;
@@ -16,7 +16,7 @@ const desc = foods.sort((a, b) => {
   return 0;
 });
 
-console.log(desc);
+// console.log(desc);
 
 const foodsWithUpperCase = [
   "falafel",
@@ -62,4 +62,4 @@ const sortByLength = words.sort((a, b) => {
   return 0;
 });
 
-console.log(sortByLength);
+// console.log(sortByLength);
