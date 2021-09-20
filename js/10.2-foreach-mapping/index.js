@@ -74,3 +74,29 @@ const swapCase = (str) => {
 };
 
 console.log(swapCase("Omri Zaher"));
+
+const str1 = "seeham";
+
+const arr1 = str1.split("");
+// console.log(arr1);
+
+const vowelObj = {
+  a: 0,
+  e: 0,
+  i: 0,
+  o: 0,
+  u: 0,
+};
+
+arr1.map((letter) => {
+  if (vowelObj.hasOwnProperty(letter)) {
+    vowelObj[letter]++;
+  }
+});
+
+// for (let letter in vowelObj) {
+//   if (vowelObj[letter] === 0) {
+//     delete vowelObj[letter];
+//   }
+// }
+console.log(vowelObj);
