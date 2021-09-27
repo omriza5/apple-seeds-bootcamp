@@ -4,15 +4,17 @@ const age = document.querySelector("#age");
 const email = document.querySelector("#email");
 const messagePar = document.querySelector(".message");
 
-form.addEventListener("submit", (e) => {
+function handleSubmit(e) {
   e.preventDefault();
 
   const isConfirmed = confirm(`
-          ${name.value}
-          ${age.value} 
-          ${email.value}
-
-          Are You Sure?`);
+            ${name.value}
+            ${age.value} 
+            ${email.value}
+  
+            Are You Sure?`);
 
   if (isConfirmed) messagePar.style.display = "block";
-});
+}
+
+form.addEventListener("submit", handleSubmit);
