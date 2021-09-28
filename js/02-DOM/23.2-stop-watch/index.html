@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Digital Clock</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Stop Watch</h1>
+      <div class="clock">
+        <div class="clock-item">
+          <span id="minutes">00</span>
+        </div>
+        <div class="clock-item">
+          <span>:</span>
+        </div>
+        <div class="clock-item">
+          <span id="seconds">00</span>
+        </div>
+        <div class="clock-item">
+          <span>:</span>
+        </div>
+        <div class="clock-item">
+          <span id="milliseconds">00</span>
+        </div>
+      </div>
+      <div class="stop-watch-buttons">
+        <input type="button" value="Start" id="start" />
+        <input type="button" value="Stop" id="stop" />
+        <input type="button" value="Reset" id="reset" />
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

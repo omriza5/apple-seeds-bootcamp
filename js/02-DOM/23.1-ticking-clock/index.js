@@ -14,7 +14,7 @@ setInterval(() => {
 setInterval(() => {
   minutes++;
   if (minutes > 59) minutes = 0;
-  minutesSpan.innerHTML = seconds < 10 ? "0" + minutes : minutes;
+  minutesSpan.innerHTML = minutes < 10 ? "0" + minutes : minutes;
 }, 60000);
 
 setInterval(() => {
