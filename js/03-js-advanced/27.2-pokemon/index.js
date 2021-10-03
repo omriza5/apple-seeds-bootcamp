@@ -18,3 +18,7 @@ const poke3 = new Pokemon("Mew", "Psychic", ["attack5", "attack6"]);
 
 console.log(poke1.callPokemon());
 console.log(poke1.attack(1));
+console.log(poke2.callPokemon());
+console.log(poke2.attack(1));
+console.log(poke3.callPokemon());
+console.log(poke3.attack(1));
