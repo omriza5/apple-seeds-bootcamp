@@ -6,7 +6,7 @@
 
 console.log("Q1: ", this);
 
-/** "this" will point to global object in node, and to window object in browser */
+/** "this" will point to empty object in node, and to window object in browser */
 
 /**
  * Question 2:
@@ -17,13 +17,13 @@ console.log("Q1: ", this);
 const myObj = {
   name: "Timmy",
   greet: function () {
-    console.log(`Q2: Hello ${this.name}`);
+    console.log(`Q2: Hello ${this}`);
   },
 };
 myObj.greet();
 
 /**
- * a => "this" will point to glbal object because arrow functions doesnt the "this" keyword
+ * a => "this" will point to empty object because arrow functions dont bind the "this" keyword
  * b => change arrow function to be normal function
  */
 
@@ -37,7 +37,7 @@ const myFuncDec = function () {
 };
 myFuncDec();
 
-/** "this"  will point to global object because this is astand alone function (doesnt belong to any object)*/
+/** "this"  will point to global object because this is a stand alone function (doesnt belong to any object)*/
 
 /**
  * Question 4:
@@ -57,9 +57,9 @@ myFuncArrow();
  * b. How can you fix this code.
  */
 
-document.querySelector(".element").addEventListener("click", () => {
-  console.log(this);
-});
+// document.querySelector(".element").addEventListener("click", () => {
+//   console.log(this);
+// });
 
 /** it will point to the window object */
 /** replace the arrow function with a regular one */
