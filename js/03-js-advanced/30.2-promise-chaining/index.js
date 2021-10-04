@@ -15,7 +15,7 @@ function makeAllCaps(words) {
 function sortWords(words) {
   return new Promise((resolve, reject) => {
     if (!isStringArray(words))
-      reject("the contains at least a non string item");
+      reject("ERROR: the array contains at least a non string item");
     else {
       const sorted = words.sort((a, b) => {
         if (a > b) return 1;
@@ -37,9 +37,11 @@ function isStringArray(arr) {
 
 /*************************** Main ***********************************/
 makeAllCaps(words)
+  .then((data) => sortWords(data))
   .then((data) => console.log(data))
   .catch((err) => console.log(err));
 
-sortWords(words)
+makeAllCaps(numbers)
+  .then((data) => sortWords(data))
   .then((data) => console.log(data))
   .catch((err) => console.log(err));
