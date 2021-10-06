@@ -78,5 +78,3 @@ function populateTable(starsArray) {
     table.appendChild(row);
   });
 }
-
-// populateTable();
