@@ -1,12 +1,14 @@
 const container = document.querySelector(".container");
 
 const DOGS_END_POINT = "https://dog.ceo/api/breeds/image/random";
+const CATS_END_POINT = "https://cataas.com/cat?json=true";
 let scroll = 200;
 let lastScrollTop = 0;
 let firstFetch = false;
+let index = 0;
 
 if (!firstFetch) {
-  getDogImgs(30);
+  getPetImgs(30, "dog");
   firstFetch = true;
 }
 document.addEventListener("scroll", async (e) => {
@@ -14,21 +16,26 @@ document.addEventListener("scroll", async (e) => {
 
   if (st > lastScrollTop) {
     if (window.pageYOffset >= scroll) {
-      getDogImgs(5);
-      console.log(window.pageYOffset);
+      if (index % 2 === 0) {
+        getPetImgs(5, "cat");
+      } else {
+        getPetImgs(5, "dog");
+      }
       scroll += 200;
+      index++;
     }
   }
 });
 
-async function getDogImgs(numOfImgs) {
+async function getPetImgs(numOfImgs, pet) {
   const dogs = [];
-
+  const endpoint = pet === "dog" ? DOGS_END_POINT : CATS_END_POINT;
   try {
     for (let i = 0; i < numOfImgs; i++) {
-      const { message } = await (await fetch(DOGS_END_POINT)).json();
+      const response = await fetch(endpoint);
+      const result = await response.json();
 
-      dogs.push(message);
+      dogs.push(result.message || `https://cataas.com/${result.url}`);
     }
 
     updateView(dogs);
