@@ -4,7 +4,7 @@ import BasicOfJsx from "./components/2.2-basics-of-jsx";
 import Boxes from "./components/3.1-boxes";
 import Quiz from "./components/3.2-quiz";
 import Button from "./components/4.1-buttons";
-
+import Card from "./components/4.2-cards";
 function App() {
   return (
     <div className="App">
@@ -14,7 +14,7 @@ function App() {
         <Boxes />
       </div> */}
       {/* <Quiz /> */}
-      <Button
+      {/* <Button
         value="Important"
         buttonStyle={{
           fontSize: "3rem",
@@ -25,7 +25,8 @@ function App() {
       <Button
         value="Not Important"
         buttonStyle={{ fontSize: "3rem", padding: "0.5rem" }}
-      />
+      /> */}
+      <Card />
     </div>
   );
 }

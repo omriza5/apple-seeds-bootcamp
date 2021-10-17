@@ -1,0 +1,36 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 50rem;
+  width: 50rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.img-card {
+  height: 25rem;
+}
+
+.img-card img {
+  height: 100%;
+  width: 100%;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  height: 25rem;
+  padding: 2rem;
+}
+
+.card-content p {
+  font-size: 2rem;
+}
+
+.card-buttons {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
