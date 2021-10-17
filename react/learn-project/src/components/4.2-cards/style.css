@@ -34,3 +34,10 @@
   align-items: center;
   font-size: 3rem;
 }
+
+.spinner-container {
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

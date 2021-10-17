@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Button from "../4.1-buttons";
+import Spinner from "../spinner";
 import "./style.css";
 
 const buttonStyle = {
@@ -27,7 +28,13 @@ const Card = () => {
     <>
       <div className="card">
         <div className="img-card">
-          <img src={img || ""} alt="random Img" />
+          {!img && (
+            <div className="spinner-container">
+              {" "}
+              <Spinner />
+            </div>
+          )}
+          {img && <img src={img || ""} alt="random Img" />}
         </div>
         <div className="card-content">
           <h1 className="card-title">Omri's Card</h1>
