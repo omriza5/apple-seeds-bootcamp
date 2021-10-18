@@ -6,6 +6,7 @@ import Quiz from "./components/3.2-quiz";
 import Button from "./components/4.1-buttons";
 import Card from "./components/4.2-cards";
 import Counter from "./components/7.1-increment";
+import HideAndSeek from "./components/7.2-hide-and-seek";
 function App() {
   return (
     <div className="App">
@@ -28,7 +29,8 @@ function App() {
         buttonStyle={{ fontSize: "3rem", padding: "0.5rem" }}
       /> */}
       {/* <Card /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <HideAndSeek />
     </div>
   );
 }
