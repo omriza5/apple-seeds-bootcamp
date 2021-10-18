@@ -5,6 +5,7 @@ import Boxes from "./components/3.1-boxes";
 import Quiz from "./components/3.2-quiz";
 import Button from "./components/4.1-buttons";
 import Card from "./components/4.2-cards";
+import Counter from "./components/7.1-increment";
 function App() {
   return (
     <div className="App">
@@ -26,7 +27,8 @@ function App() {
         value="Not Important"
         buttonStyle={{ fontSize: "3rem", padding: "0.5rem" }}
       /> */}
-      <Card />
+      {/* <Card /> */}
+      <Counter />
     </div>
   );
 }
