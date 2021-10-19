@@ -11,6 +11,7 @@ import LifeCycle from "./components/8.1-life-cycle-methods";
 import BoxAnimation from "./components/8.2-box-animation";
 import ChangingBox from "./components/8.3-changing-box";
 import SpinnerTimer from "./components/9.1-spinner";
+import ChuckNorris from "./components/12.1-chuck-norris";
 function App() {
   return (
     <div className="App">
@@ -38,7 +39,8 @@ function App() {
       {/* <LifeCycle /> */}
       {/* <BoxAnimation /> */}
       {/* <ChangingBox /> */}
-      <SpinnerTimer />
+      {/* <SpinnerTimer /> */}
+      <ChuckNorris />
     </div>
   );
 }
