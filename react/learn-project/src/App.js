@@ -8,6 +8,7 @@ import Card from "./components/4.2-cards";
 import Counter from "./components/7.1-increment";
 import HideAndSeek from "./components/7.2-hide-and-seek";
 import LifeCycle from "./components/8.1-life-cycle-methods";
+import BoxAnimation from "./components/8.2-box-animation";
 function App() {
   return (
     <div className="App">
@@ -32,7 +33,8 @@ function App() {
       {/* <Card /> */}
       {/* <Counter /> */}
       {/* <HideAndSeek /> */}
-      <LifeCycle />
+      {/* <LifeCycle /> */}
+      <BoxAnimation />
     </div>
   );
 }
