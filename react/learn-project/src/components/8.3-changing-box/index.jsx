@@ -16,9 +16,9 @@ class ChangingBox extends React.Component {
   }
 
   getClass = () => {
-    const randIndex = Math.floor(Math.random() * colors.length);
+    const colorIndex = this.state.counter % colors.length;
     let classes = this.state.counter >= 5 ? "circle" : "box";
-    return `${classes} ${colors[randIndex]}`;
+    return `${classes} ${colors[colorIndex]}`;
   };
   render() {
     return <div className={this.getClass()}></div>;
