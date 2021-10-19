@@ -9,6 +9,7 @@ import Counter from "./components/7.1-increment";
 import HideAndSeek from "./components/7.2-hide-and-seek";
 import LifeCycle from "./components/8.1-life-cycle-methods";
 import BoxAnimation from "./components/8.2-box-animation";
+import ChangingBox from "./components/8.3-changing-box";
 function App() {
   return (
     <div className="App">
@@ -34,7 +35,8 @@ function App() {
       {/* <Counter /> */}
       {/* <HideAndSeek /> */}
       {/* <LifeCycle /> */}
-      <BoxAnimation />
+      {/* <BoxAnimation /> */}
+      <ChangingBox />
     </div>
   );
 }

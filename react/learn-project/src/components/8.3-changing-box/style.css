@@ -1,0 +1,26 @@
+.box {
+  height: 15rem;
+  width: 15rem;
+}
+
+.circle {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+}
+
+.red {
+  background: red;
+}
+.green {
+  background: green;
+}
+.purple {
+  background: purple;
+}
+.yellow {
+  background: yellow;
+}
+.black {
+  background: black;
+}
