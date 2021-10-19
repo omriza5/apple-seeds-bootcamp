@@ -10,6 +10,7 @@ import HideAndSeek from "./components/7.2-hide-and-seek";
 import LifeCycle from "./components/8.1-life-cycle-methods";
 import BoxAnimation from "./components/8.2-box-animation";
 import ChangingBox from "./components/8.3-changing-box";
+import SpinnerTimer from "./components/9.1-spinner";
 function App() {
   return (
     <div className="App">
@@ -36,7 +37,8 @@ function App() {
       {/* <HideAndSeek /> */}
       {/* <LifeCycle /> */}
       {/* <BoxAnimation /> */}
-      <ChangingBox />
+      {/* <ChangingBox /> */}
+      <SpinnerTimer />
     </div>
   );
 }

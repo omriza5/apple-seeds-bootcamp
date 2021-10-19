@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.css";
 
-const Spinner = () => {
-  return <div className="loader"></div>;
+const Spinner = ({ extraStyle }) => {
+  return <div className="loader" style={extraStyle}></div>;
 };
 
 export default Spinner;
