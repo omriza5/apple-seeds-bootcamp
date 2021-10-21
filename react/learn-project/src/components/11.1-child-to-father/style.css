@@ -1,0 +1,26 @@
+.childToParent-container p {
+  font-size: 4rem;
+}
+
+.childToParent-btn {
+  font-size: 2.5rem;
+  margin: 2rem 0.5rem;
+  text-align: center;
+  width: 15rem;
+}
+
+.blueText {
+  color: blue;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.redText {
+  color: red;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.yellowText {
+  color: yellow;
+  font-size: 3.5rem;
+  font-weight: bold;
+}

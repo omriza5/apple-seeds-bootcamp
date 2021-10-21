@@ -12,7 +12,9 @@ import BoxAnimation from "./components/8.2-box-animation";
 import ChangingBox from "./components/8.3-changing-box";
 import SpinnerTimer from "./components/9.1-spinner";
 import ChuckNorris from "./components/12.1-chuck-norris";
+import ChildToFather from "./components/11.1-child-to-father";
 function App() {
+  console.log(typeof []);
   return (
     <div className="App">
       {/* <HelloWorld /> */}
@@ -40,9 +42,22 @@ function App() {
       {/* <BoxAnimation /> */}
       {/* <ChangingBox /> */}
       {/* <SpinnerTimer /> */}
-      <ChuckNorris />
+      {/* <ChuckNorris /> */}
+      <ChildToFather />
     </div>
   );
 }
 
 export default App;
+
+const countStringRepeatetion = (word) => {
+  const words = word.split(" ").split(",");
+  const map = new Map();
+
+  for (let i = 0; i < words.length; i++) {
+    const count = map.containes(words[i]) ? map.get(words[i]) : 0;
+    map.add(words[i], count + 1);
+  }
+
+  // loop over the map and print the value
+};
