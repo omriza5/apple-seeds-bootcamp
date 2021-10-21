@@ -1,0 +1,22 @@
+.checkbox-list {
+  display: flex;
+  flex: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.checkbox {
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+.checkbox input {
+  width: 1rem;
+}
+.checkboxLabel {
+  width: 25rem;
+  font-size: 2.5rem;
+}
