@@ -1,0 +1,21 @@
+.formInput-textInput input {
+  padding: 0.5rem 3rem;
+  font-size: 2.5rem;
+}
+
+.formSelect-selectInput select {
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+
+.formInput-textArea {
+  font-size: 3rem;
+}
+
+.formButton {
+  font-size: 3rem;
+}
+
+.reviewSection p {
+  font-size: 3rem;
+}

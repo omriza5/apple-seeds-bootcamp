@@ -14,6 +14,7 @@ import SpinnerTimer from "./components/9.1-spinner";
 import ChuckNorris from "./components/12.1-chuck-norris";
 import ChildToFather from "./components/11.1-child-to-father";
 import CheckboxList from "./components/11.2-checkbox/index";
+import FormReview from "./components/11.3-form-review";
 function App() {
   console.log(typeof []);
   return (
@@ -45,7 +46,8 @@ function App() {
       {/* <SpinnerTimer /> */}
       {/* <ChuckNorris /> */}
       {/* <ChildToFather /> */}
-      <CheckboxList />
+      {/* <CheckboxList /> */}
+      <FormReview />
     </div>
   );
 }
