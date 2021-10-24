@@ -16,6 +16,7 @@ import ChildToFather from "./components/11.1-child-to-father";
 import CheckboxList from "./components/11.2-checkbox/index";
 import FormReview from "./components/11.3-form-review";
 import DataMassaging from "./components/13.1-data-massaging";
+import AvatarExercise from "./components/13.2-avatar";
 
 function App() {
   return (
@@ -49,7 +50,7 @@ function App() {
       {/* <ChildToFather /> */}
       {/* <CheckboxList /> */}
       {/* <FormReview /> */}
-      <DataMassaging />
+      <AvatarExercise />
     </div>
   );
 }
