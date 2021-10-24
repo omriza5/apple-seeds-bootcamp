@@ -3,7 +3,8 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./home";
 import Navbar from "./navbar";
 import Products from "./products";
-import ProductPage from "./productPage";
+import ProductDetail from "./productDetail";
+import NotFound from "./notFound";
 
 const RouterExercise = () => {
   return (
@@ -12,13 +13,16 @@ const RouterExercise = () => {
       <div>
         <Switch>
           <Route path="/products/:id">
-            <ProductPage />
+            <ProductDetail />
           </Route>
           <Route path="/products">
             <Products />
           </Route>
           <Route exact path="/">
             <Home />
+          </Route>
+          <Route path="*">
+            <NotFound />
           </Route>
         </Switch>
       </div>

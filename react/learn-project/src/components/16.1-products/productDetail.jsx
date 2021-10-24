@@ -1,6 +1,7 @@
 import React from "react";
 import { useHistory, useLocation } from "react-router-dom";
-const ProductPage = () => {
+
+const ProductDetail = () => {
   const { state: product } = useLocation();
   const history = useHistory();
 
@@ -12,7 +13,7 @@ const ProductPage = () => {
       <h1>
         Hey this is a beautiful{" "}
         <span style={{ fontSize: "5rem", color: "#5c3c92" }}>
-          {product.title}
+          {product && product.title}
         </span>
       </h1>
       <input
@@ -25,4 +26,4 @@ const ProductPage = () => {
   );
 };
 
-export default ProductPage;
+export default ProductDetail;
