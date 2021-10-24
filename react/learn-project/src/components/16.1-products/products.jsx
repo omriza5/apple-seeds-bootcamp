@@ -16,6 +16,7 @@ const Products = () => {
           <Link
             to={{ pathname: `/products/${product.id}`, state: product }}
             key={product.id}
+            className="link-item"
           >
             <ProductCard product={product} />
           </Link>
