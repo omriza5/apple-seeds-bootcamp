@@ -15,8 +15,9 @@ import ChuckNorris from "./components/12.1-chuck-norris";
 import ChildToFather from "./components/11.1-child-to-father";
 import CheckboxList from "./components/11.2-checkbox/index";
 import FormReview from "./components/11.3-form-review";
+import DataMassaging from "./components/13.1-data-massaging";
+
 function App() {
-  console.log(typeof []);
   return (
     <div className="App">
       {/* <HelloWorld /> */}
@@ -47,21 +48,10 @@ function App() {
       {/* <ChuckNorris /> */}
       {/* <ChildToFather /> */}
       {/* <CheckboxList /> */}
-      <FormReview />
+      {/* <FormReview /> */}
+      <DataMassaging />
     </div>
   );
 }
 
 export default App;
-
-const countStringRepeatetion = (word) => {
-  const words = word.split(" ").split(",");
-  const map = new Map();
-
-  for (let i = 0; i < words.length; i++) {
-    const count = map.containes(words[i]) ? map.get(words[i]) : 0;
-    map.add(words[i], count + 1);
-  }
-
-  // loop over the map and print the value
-};
