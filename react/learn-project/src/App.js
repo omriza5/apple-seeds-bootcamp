@@ -18,6 +18,7 @@ import FormReview from "./components/11.3-form-review";
 import DataMassaging from "./components/13.1-data-massaging";
 import AvatarExercise from "./components/13.2-avatar";
 import RouterExercise from "./components/16.1-products";
+import TextExercise from "./components/18.1-text";
 
 function App() {
   return (
@@ -52,7 +53,8 @@ function App() {
       {/* <CheckboxList /> */}
       {/* <FormReview /> */}
       {/* <AvatarExercise /> */}
-      <RouterExercise />
+      {/* <RouterExercise /> */}
+      <TextExercise />
     </div>
   );
 }
