@@ -21,6 +21,7 @@ import RouterExercise from "./components/16.1-products";
 import TextExercise from "./components/18.1-text";
 import SimpleTodo from "./components/18.2-simple-todo";
 import MarkingAndDeleting from "./components/18.4-marking-deleting";
+import SimpleFetch from "./components/19.4-simple-fetch";
 
 function App() {
   return (
@@ -58,7 +59,8 @@ function App() {
       {/* <RouterExercise /> */}
       {/* <TextExercise /> */}
       {/* <SimpleTodo /> */}
-      <MarkingAndDeleting />
+      {/* <MarkingAndDeleting /> */}
+      <SimpleFetch />
     </div>
   );
 }

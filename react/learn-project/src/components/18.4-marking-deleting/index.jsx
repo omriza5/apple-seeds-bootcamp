@@ -7,12 +7,14 @@ const numbers = ["one", "two", "three", "four", "five"];
 const MarkingAndDeleting = () => {
   const [checkboxes, setCheckboxes] = useState([]);
   const [originalCheckboxes, setOriginalCheckboxes] = useState([]);
+
   useEffect(() => {
     const mapped = numbers.map((number, index) => ({
       id: index,
       value: number,
       isChecked: false,
     }));
+
     setCheckboxes(mapped);
     setOriginalCheckboxes(mapped);
   }, []);
