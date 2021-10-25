@@ -19,6 +19,7 @@ import DataMassaging from "./components/13.1-data-massaging";
 import AvatarExercise from "./components/13.2-avatar";
 import RouterExercise from "./components/16.1-products";
 import TextExercise from "./components/18.1-text";
+import SimpleTodo from "./components/18.2-simple-todo";
 
 function App() {
   return (
@@ -54,7 +55,8 @@ function App() {
       {/* <FormReview /> */}
       {/* <AvatarExercise /> */}
       {/* <RouterExercise /> */}
-      <TextExercise />
+      {/* <TextExercise /> */}
+      <SimpleTodo />
     </div>
   );
 }

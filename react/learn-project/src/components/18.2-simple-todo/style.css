@@ -1,0 +1,14 @@
+.todo {
+  display: flex;
+  justify-content: center;
+}
+.todo p {
+  font-size: 3rem;
+}
+.todo span {
+  background: green;
+}
+
+.todo .checked {
+  text-decoration: line-through;
+}
