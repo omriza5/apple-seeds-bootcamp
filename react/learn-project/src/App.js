@@ -22,6 +22,7 @@ import TextExercise from "./components/18.1-text";
 import SimpleTodo from "./components/18.2-simple-todo";
 import MarkingAndDeleting from "./components/18.4-marking-deleting";
 import SimpleFetch from "./components/19.4-simple-fetch";
+import CountriesOfTheWorld from "./components/19.2-countries-of-the-world/index.jsx";
 
 function App() {
   return (
@@ -60,7 +61,8 @@ function App() {
       {/* <TextExercise /> */}
       {/* <SimpleTodo /> */}
       {/* <MarkingAndDeleting /> */}
-      <SimpleFetch />
+      {/* <SimpleFetch /> */}
+      <CountriesOfTheWorld />
     </div>
   );
 }
