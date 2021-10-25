@@ -1,0 +1,17 @@
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox-button input {
+  font-size: 2.5rem;
+}
+
+.checkbox input {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 3rem;
+}
+
+.checkbox label {
+  font-size: 2.5rem;
+}

@@ -20,6 +20,7 @@ import AvatarExercise from "./components/13.2-avatar";
 import RouterExercise from "./components/16.1-products";
 import TextExercise from "./components/18.1-text";
 import SimpleTodo from "./components/18.2-simple-todo";
+import MarkingAndDeleting from "./components/18.4-marking-deleting";
 
 function App() {
   return (
@@ -56,7 +57,8 @@ function App() {
       {/* <AvatarExercise /> */}
       {/* <RouterExercise /> */}
       {/* <TextExercise /> */}
-      <SimpleTodo />
+      {/* <SimpleTodo /> */}
+      <MarkingAndDeleting />
     </div>
   );
 }
