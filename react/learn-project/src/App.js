@@ -23,6 +23,7 @@ import SimpleTodo from "./components/18.2-simple-todo";
 import MarkingAndDeleting from "./components/18.4-marking-deleting";
 import SimpleFetch from "./components/19.4-simple-fetch";
 import CountriesOfTheWorld from "./components/19.2-countries-of-the-world/index.jsx";
+import Algolia from "./components/19.3-alogolia";
 
 function App() {
   return (
@@ -62,7 +63,8 @@ function App() {
       {/* <SimpleTodo /> */}
       {/* <MarkingAndDeleting /> */}
       {/* <SimpleFetch /> */}
-      <CountriesOfTheWorld />
+      {/* <CountriesOfTheWorld /> */}
+      <Algolia />
     </div>
   );
 }
