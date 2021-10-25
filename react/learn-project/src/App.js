@@ -21,9 +21,10 @@ import RouterExercise from "./components/16.1-products";
 import TextExercise from "./components/18.1-text";
 import SimpleTodo from "./components/18.2-simple-todo";
 import MarkingAndDeleting from "./components/18.4-marking-deleting";
-import SimpleFetch from "./components/19.4-simple-fetch";
+import SimpleFetch from "./components/19.1-simple-fetch";
 import CountriesOfTheWorld from "./components/19.2-countries-of-the-world/index.jsx";
 import Algolia from "./components/19.3-alogolia";
+import ChuckNorrisWithHooks from "./components/19.4-refactor-fetch-with-hooks";
 
 function App() {
   return (
@@ -64,7 +65,8 @@ function App() {
       {/* <MarkingAndDeleting /> */}
       {/* <SimpleFetch /> */}
       {/* <CountriesOfTheWorld /> */}
-      <Algolia />
+      {/* <Algolia /> */}
+      <ChuckNorrisWithHooks />
     </div>
   );
 }

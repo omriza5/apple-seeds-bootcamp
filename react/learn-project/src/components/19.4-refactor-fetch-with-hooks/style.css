@@ -1,0 +1,51 @@
+.chuck-norris-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.chuck-norris-main p {
+  font-size: 2.5rem;
+}
+.chuck-norris-select {
+  font-size: 3rem;
+  margin: 2.5rem;
+}
+
+.get-random {
+  padding: 2rem;
+}
+.get-random input {
+  font-size: 2.5rem;
+  padding: 0.5rem;
+  margin: 2rem 0;
+}
+
+.get-by-select {
+  padding: 2rem;
+}
+
+.search-section {
+  padding: 2.5rem;
+}
+
+.search-section input {
+  font-size: 3rem;
+}
+
+.jokes-list {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 80%;
+}
+.jokes-list li {
+  align-self: flex-start;
+  font-size: 2rem;
+}
+.line {
+  height: 5px;
+  width: 100%;
+  background: black;
+}
