@@ -1,0 +1,15 @@
+*)What are 3 things node.js has that the client side javascript doesn’t
+have. And the reasons why.
+
+1. process obj ==> because in node we dont use the dom, its similar to documnet
+2. global obj
+3. can write js code outside the browser
+
+
+
+*)What are 3 things the client side javascript has that node.js doesn’t
+have. And the reasons why.
+
+1. ducument obj
+2. window obj
+3. can write js code inside the browser only

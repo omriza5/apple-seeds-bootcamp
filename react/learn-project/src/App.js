@@ -25,6 +25,7 @@ import SimpleFetch from "./components/19.1-simple-fetch";
 import CountriesOfTheWorld from "./components/19.2-countries-of-the-world/index.jsx";
 import Algolia from "./components/19.3-alogolia";
 import ChuckNorrisWithHooks from "./components/19.4-refactor-fetch-with-hooks";
+import MiniCrudProject from "./components/17.1-crud-mini-project";
 
 function App() {
   return (
@@ -66,7 +67,8 @@ function App() {
       {/* <SimpleFetch /> */}
       {/* <CountriesOfTheWorld /> */}
       {/* <Algolia /> */}
-      <ChuckNorrisWithHooks />
+      {/* <ChuckNorrisWithHooks /> */}
+      <MiniCrudProject />
     </div>
   );
 }

@@ -23,6 +23,7 @@ const Algolia = () => {
 
   const handleClick = () => {
     setQuery(userInput);
+    setHits([]);
   };
 
   return (
