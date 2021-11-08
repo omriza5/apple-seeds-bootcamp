@@ -11,7 +11,6 @@ const getRandomJokeUsingGot = async () => {
   } catch (error) {}
 };
 
-getRandomJokeUsingGot();
 module.exports = {
   getRandomJokeUsingGot,
 };
